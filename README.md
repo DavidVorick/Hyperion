@@ -24,10 +24,10 @@ Hyperion is meant to be vim-like, and thus has some hotkeys.
 i: enter insert mode (currently does nothing)
 escape: exit insert mode (currently does nothing)
 
-ctrl+l: enable verbose console logging
-ctrl+L: disable verbose console logging
-ctrl+p: use console to log current hotkey status
-ctrl+h: go home (currently broken)
+ctrl+l: enable verbose console logging  
+ctrl+L: disable verbose console logging  
+ctrl+p: use console to log current hotkey status  
+ctrl+h: go home (currently broken)  
 
 ### TODOs:
 
