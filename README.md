@@ -10,13 +10,6 @@ Currently, Hyperion depends on a modified siad where the /renter/files endpoint
 returns all files from root, and where the /skynet endpoints do not require an
 api password.
 
-```
-// Installation:
-npm install moustrap
-npm install
-npm start
-```
-
 ### Hotkeys
 
 Hyperion is meant to be vim-like, and thus has some hotkeys.
@@ -30,6 +23,8 @@ ctrl+p: use console to log current hotkey status
 ctrl+h: go home (currently broken)  
 
 ### TODOs:
+
+Need to more gracefully handle when siad is offline
 
 Need to figure out how to supply an api password.
 

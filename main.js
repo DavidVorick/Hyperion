@@ -47,8 +47,6 @@ function createWindow () {
 				console.log('has not')
 				BrowserView.fromId(urlBarId).webContents.send('notPinned')
 			}
-		} else {
-			return
 		}
 		callback({ cancel: false, requestHeaders: details.requestHeaders })
 	})
